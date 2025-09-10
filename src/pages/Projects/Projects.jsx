@@ -309,6 +309,7 @@ function Card({
           </div>
         </div>
       </motion.div>
+      
     </div>
   );
 }
