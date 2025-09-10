@@ -4,10 +4,10 @@ const config = {
     developerKeywords: ["Extension Developer", "Full-Stack Developer", "Scraping Expert"],
     developerImage: "/hero.jpg",
     developerEmail: "xchozoiy@gmail.com",
-    developerPhone: "+380931234567",
+    developerPhone: "+380 66 931 3275",
     developerAddress: "Kyiv, Ukraine",
     developerSocial: {
-        twitter: "https://twitter.com/andrii_hryholiait",
+        twitter: "https://twitter.com/xchozoiy",
     }
 }
 
