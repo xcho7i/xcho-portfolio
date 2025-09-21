@@ -1,6 +1,6 @@
 const config = {
-    developerName: "Yevhenii Ivashchenko",
-    developerDescription: "Yevhenii Ivashchenko is a Extension Developer and Full Stack Developer",
+    developerName: "Jellow",
+    developerDescription: "Jellow is a Extension Developer and Full Stack Developer",
     developerKeywords: ["Extension Developer", "Full-Stack Developer", "Scraping Expert"],
     developerImage: "/hero.jpg",
     developerEmail: "xchozoiy@gmail.com",

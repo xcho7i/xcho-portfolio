@@ -4,20 +4,20 @@ import config from "@/config";
 export default function About() {
   return (
     <>
-      <section id="about" className="py-16 md:py-32  text-white bg-[#04081A] min-h-screen">
+      <section id="about" className="py-16 md:py-32  text-white bg-[#04081A]">
         <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-white">
             {config.developerKeywords.join(", ")}
           </h2>
-          <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
-            <div className="relative mb-6 sm:mb-0">
-              <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl p-px from-zinc-300 to-transparent">
+          <div className="flex flex-row justify-center items-center gap-20">
+            <div className="justify-center items-center">
+              <div className="">
                 <img
                   src={config.developerImage}
                   className="rounded-[15px] shadow block"
                   alt="payments illustration"
-                  width={1207}
-                  height={929}
+                  width={500}
+                  height={500}
                 />
               </div>
             </div>
@@ -28,7 +28,7 @@ export default function About() {
                 specializing in creating innovative web solutions and
                 user-friendly interfaces.{" "}
                 <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
+                  As the contributor of the OlovaJS UI Framework
                 </span>
                 , I'm dedicated to simplifying development workflows.
               </p>
@@ -51,7 +51,7 @@ export default function About() {
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
-                      {config.developerName}, Creator of
+                      {config.developerName}, Contributor of
                     </cite>
                     <div className="flex items-center gap-2">
                       <img
