@@ -69,7 +69,8 @@ const profile = {
             this.skills.length >= 5 &&
             this.yearsOfExperience >= 3
         );
-    }
+    },
+    statue: "🔥Open To Work!"
 };
   `);
 
