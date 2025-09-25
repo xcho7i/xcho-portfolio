@@ -44,8 +44,8 @@ const GridBackground = () => {
 export default function Hero() {
   const words = [
     "Full-Stack Developer & UI/UX Enthusiast",
-    "JavaScript Developer & Creator of Olova.js",
-    "Learning MARN Stack",
+    "JavaScript Developer & Contributor of Olova.js",
+    "MERN Expert",
     "Linux & GitHub for DevOps Enthusiast",
   ];
 
