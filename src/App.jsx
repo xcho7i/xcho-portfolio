@@ -13,7 +13,7 @@ import config from "./config";
 import { Route, Routes } from "react-router-dom";
 
 export default function App() {
-  const [isOnePage, setIsOnePage] = useState(true); // Toggle state
+  const [isOnePage, setIsOnePage] = useState(true);
   document.title = config.developerName;
   return (
     <>
