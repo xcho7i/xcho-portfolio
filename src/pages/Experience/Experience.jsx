@@ -66,8 +66,7 @@ const ExperienceSection = () => {
       title: "Scraping Expert",
       company: "Freelancer",
       period: "2021 - 2023",
-      description:
-        "Scraped many high security site having Captcha",
+      description: "Scraped many high security site having Captcha",
     },
     {
       icon: Code2,
@@ -81,7 +80,10 @@ const ExperienceSection = () => {
 
   return (
     <>
-      <div id="experience" className="min-h-screen bg-gradient-to-b relative overflow-hidden pt-32 pb-20">
+      <div
+        id="experience"
+        className="min-h-screen bg-gradient-to-b relative overflow-hidden pt-32 pb-20"
+      >
         {/* Animated gradient background */}
         <div className="absolute inset-0 bg-[#04081A]" />
 
