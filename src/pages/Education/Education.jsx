@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import EducationLoader from "@/components/ui/EducationLoader";
 import {
-  Star,
   Award,
   Calendar,
   BookOpen,
