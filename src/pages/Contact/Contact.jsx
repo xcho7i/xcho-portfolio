@@ -30,7 +30,7 @@ export default function Contact() {
                     <p className="text-gray-400">{config.developerEmail}</p>
                   </div>
                 </div>
-
+{/* 
                 <div className="flex items-center space-x-4">
                   <div className="bg-green-500/10 p-3 rounded-lg">
                     <svg className="w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 24 24">
@@ -60,7 +60,7 @@ export default function Contact() {
                     <h3 className="font-semibold">Location</h3>
                     <p className="text-gray-400">{config.developerAddress}</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
