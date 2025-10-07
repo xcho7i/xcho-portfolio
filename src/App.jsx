@@ -36,7 +36,7 @@ export default function App() {
             <div className="bg-gray-900 rounded-lg w-[75%] mx-auto shadow-lg p-6 flex flex-col items-start border border-gray-800/50">
               <img src="latest.jpg" alt="Robo Apply" className="w-full object-cover rounded-md mb-4" />
               <h3 className="text-xl font-bold text-blue-400 mb-2 text-center">
-                Robo Apply
+                Robo Apply (React, Node.js, MongoDB, AWS)
               </h3>
               <p className="text-gray-300 mb-4">
                 An advanced web application that leverages AI to analyze and score resumes, providing actionable feedback and suggestions for improvement. Built with React, Node.js, and OpenAI API integration.

@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Olova! A Lightweight JavaScript Library (Vue.js, Vite)",
     description:
       "A lightweight JavaScript library for creating beautiful, responsive UI components.",
     src: "rock.jpg",
@@ -15,64 +15,80 @@ const projects = [
     liveLink: "https://olova.js.org/",
   },
   {
-    title: "WAGMI game frontend built with React and Tailwind CSS",
+    title: "Nanoleaf – Smart LED Lighting for Creative Spaces (Shopify)",
     description:
-      "A WAGMI-themed game frontend built with React and Tailwind CSS. Features include interactive gameplay elements, responsive design, and modern UI components for an engaging gaming experience.",
+      "Nanoleaf offers cutting-edge modular LED lighting that transforms homes and offices with interactive, color-customizable designs. The platform supports seamless smart home integration, real-time effects, and intuitive control via app, voice, or automation. Its eco-friendly and innovative technology provides users with personalized, energy-efficient lighting experiences.",
     src: "tree.jpg",
-    link: "https://iili.io/FPOIu3v.png",
+    link: "https://iili.io/Khg5THN.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "",
+    liveLink: "https://nanoleaf.me/",
   },
   {
-    title: "🚀 Adventure Marketing Platform",
+    title: "LookPrior – Video-Powered Marketplace (Shopify)",
     description:
-      "A comprehensive marketing platform built with Vue.js, Node.js and MongoDB. Features include campaign management, analytics dashboard, lead tracking, and automated marketing workflows.",
+      "LookPrior is a mobile classifieds marketplace that lets users post ads with videos alongside images, giving buyers a true sense of products and services before purchase. Its intuitive app and website support secure messaging, customizable listings, and real-time local and national reach. LookPrior’s innovative approach builds trust and transparency for both buyers and sellers.",
     src: "water.jpg",
-    link: "https://iili.io/FPOlnJn.png",
+    link: "https://iili.io/KhgLNg1.png",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "",
+    liveLink: "https://lookprior.com/",
   },
   {
-    title: "Hotel introduction",
+    title: "Au Lit Fine Linens – Canadian Luxury Bedding (Shopify)",
     description:
-      "A modern hotel introduction website built with React and Tailwind CSS. Features include room showcases, booking system, amenities display, and interactive hotel information for guests.",
+      "Au Lit Fine Linens is a Toronto-based, family-owned business dedicated to transforming sleep with luxury linens crafted from premium Egyptian cotton and natural fabrics. Since 1981, it has offered bespoke bedding, personalized service, and expert customization for both homes and hospitality. All products are made with a commitment to quality, comfort, and timeless style.",
     src: "house.jpg",
-    link: "https://iili.io/FPOWytn.png",
+    link: "https://iili.io/KhrHG3v.png",
     color: "#ed649e",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    liveLink: "https://www.aulitfinelinens.com/",
   },
   {
-    title: "Swapped(Blockchain)",
+    title: "Polarsteps – Personalized Travel Tracker & Planner (React, AWS)",
     description:
-      "A blockchain-based swapping platform built with React and Tailwind CSS. Features include token swapping, liquidity pools, wallet integration, and decentralized exchange functionality.",
+      "Polarsteps is a travel platform that helps users effortlessly plan, track, and share their journeys using automatic GPS route mapping and multimedia journaling. Its intuitive app creates digital and printed travel books, enhances travel planning with AI-generated itineraries, and offers flexible privacy options for sharing adventures. With offline support and a thriving community, Polarsteps brings travel memories and inspiration together in a seamless, engaging experience.",
     src: "house.jpg",
-    link: "https://iili.io/FPOvht2.png",
+    link: "https://iili.io/Khr830J.png",
     color: "#234632",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    liveLink: "https://www.polarsteps.com/",
   },
   {
-    title: "Dream Home Seller",
+    title:
+      "AI Content Detector - Copyleaks Chrome Extension (Chrome Extension, React, Manifest v3)",
     description:
       "A real estate platform built with React and Tailwind CSS. Features include property listings, virtual tours, mortgage calculators, and real-time market analytics for home buyers and sellers.",
     src: "house.jpg",
-    link: "https://iili.io/FPOyhdb.png",
+    link: "https://iili.io/Kh4wKvI.png",
     color: "#678945",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    liveLink:
+      "https://chromewebstore.google.com/detail/ai-content-detector-copyl/gplcmncpklkdjiccbknjjkoidpgkcakd",
   },
   {
-    title: "Aether Game Frontend",
+    title:
+      "Thunderbit – AI Web Scraper & Web Automation Agent (Chrome Extension, JS, Manifest v3)",
     description:
-      "A gaming frontend platform built with React and Tailwind CSS. Features include game launcher, player profiles, leaderboards, multiplayer functionality, and immersive gaming interface.",
+      "Thunderbit is a powerful AI-driven Chrome extension that enables users to scrape data from any website, PDF, or image in just two clicks, eliminating the need for coding. It supports scraping emails, phone numbers, images, and detailed data across multiple pages with built-in templates for popular sites like Amazon, LinkedIn, and Zillow.",
     src: "house.jpg",
-    link: "https://iili.io/FPeHqtp.png",
+    link: "https://iili.io/Kh6IWAP.png",
     color: "#e58932",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    liveLink:
+      "https://chromewebstore.google.com/detail/thunderbit-ai-web-scraper/hbkblmodhbmcakopmmfbaopfckopccgp",
+  },
+  {
+    title:
+      "Indeed Scraper – Job Data Extraction Chrome Extension (Chrome Extension, JS, Manifest v3)",
+    description:
+      "Indeed Scraper is a user-friendly Chrome extension designed to effortlessly extract and export detailed job data from Indeed in CSV, JSON, or Excel formats. It helps job seekers, recruiters, and HR managers easily analyze job market trends, track hiring, and customize searches without any coding skills.",
+    src: "house.jpg",
+    link: "https://iili.io/Kh6Ry2j.png",
+    color: "#e58932",
+    githubLink: "https://github.com/seraprogrammer/CodeKori",
+    liveLink:
+      "https://chromewebstore.google.com/detail/indeed-scraper/bneijclffbjaigpohjfnfmjpnaadchdd",
   },
 ];
 
@@ -82,6 +98,7 @@ export default function Projects() {
     target: container,
     offset: ["start start", "end end"],
   });
+  const totalProjects = projects.length;
 
   useEffect(() => {
     // Add specific styles for 1366x768 resolution
@@ -131,14 +148,25 @@ export default function Projects() {
     <ReactLenis root>
       <main id="projects" className="bg-[#04081A]" ref={container}>
         <section className="text-white w-full bg-slate-950">
-        <div className="flex flex-col justify-center items-center mp-10">
-          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">-Projects-</h1>
-          <p className="text-gray-300 text-lg">
-            Here are some of my projects that I've worked on.
-          </p>
-        </div>
+          <div className="flex flex-col justify-center items-center mp-10">
+            <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+              -Projects-
+            </h1>
+            <p className="text-gray-300 text-lg">
+              Here are some of my projects that I've worked on.
+            </p>
+          </div>
           {projects.map((project, i) => {
-            const targetScale = 1 - (projects.length - i) * 0.05;
+            // Distribute scroll ranges evenly across all projects (works for any count)
+            const rangeStart = i / totalProjects;
+            const rangeEnd = Math.min(1, rangeStart + 1 / totalProjects);
+
+            // Smooth scale distribution from min to max across the stack
+            const minScale = 0.85;
+            const maxScale = 1;
+            const scaleStep =
+              (maxScale - minScale) / Math.max(totalProjects, 1);
+            const targetScale = maxScale - (totalProjects - i - 1) * scaleStep;
             return (
               <Card
                 key={`p_${i}`}
@@ -148,7 +176,7 @@ export default function Projects() {
                 color={project.color}
                 description={project.description}
                 progress={scrollYProgress}
-                range={[i * 0.25, 1]}
+                range={[rangeStart, rangeEnd]}
                 targetScale={targetScale}
                 githubLink={project.githubLink}
                 liveLink={project.liveLink}
@@ -241,11 +269,11 @@ function Card({
               </p>
             </div>
 
-            {/* <div className="mt-4 md:mt-auto pt-4">
+            <div className="mt-4 md:mt-auto pt-4">
               <div className="w-full h-[1px] bg-gray-800 mb-4 md:mb-6" />
 
               <div className="flex items-center gap-4">
-                <motion.a
+                {/* <motion.a
                   href={githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -272,7 +300,7 @@ function Card({
                   >
                     Code
                   </span>
-                </motion.a>
+                </motion.a> */}
 
                 <motion.a
                   href={liveLink}
@@ -305,11 +333,10 @@ function Card({
                   </span>
                 </motion.a>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </motion.div>
-      
     </div>
   );
 }
