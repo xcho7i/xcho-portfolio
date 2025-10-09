@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Olova! A Lightweight JavaScript Library (Vue.js, Vite)",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+      "A lightweight JavaScript library for building beautiful, responsive UI components. Built with Vue.js and Vite for simplicity and speed.",
     src: "rock.jpg",
     link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
     color: "#5196fd",
@@ -17,7 +17,7 @@ const projects = [
   {
     title: "Nanoleaf – Smart LED Lighting for Creative Spaces (Shopify)",
     description:
-      "Nanoleaf offers cutting-edge modular LED lighting that transforms homes and offices with interactive, color-customizable designs. The platform supports seamless smart home integration, real-time effects, and intuitive control via app, voice, or automation. Its eco-friendly and innovative technology provides users with personalized, energy-efficient lighting experiences.",
+      "Modular LED lighting that transforms spaces with interactive, color-customizable designs and smart-home integration. Control effects via app or voice with eco-friendly, energy-efficient technology for personalized lighting.",
     src: "tree.jpg",
     link: "https://iili.io/Khg5THN.png",
     color: "#8f89ff",
@@ -27,7 +27,7 @@ const projects = [
   {
     title: "LookPrior – Video-Powered Marketplace (Shopify)",
     description:
-      "LookPrior is a mobile classifieds marketplace that lets users post ads with videos alongside images, giving buyers a true sense of products and services before purchase. Its intuitive app and website support secure messaging, customizable listings, and real-time local and national reach. LookPrior’s innovative approach builds trust and transparency for both buyers and sellers.",
+      "Mobile classifieds where listings include videos and images to boost buyer confidence. Features secure messaging, customizable listings, and real-time local and national reach.",
     src: "water.jpg",
     link: "https://iili.io/KhgLNg1.png",
     color: "#fff",
@@ -37,7 +37,7 @@ const projects = [
   {
     title: "Au Lit Fine Linens – Canadian Luxury Bedding (Shopify)",
     description:
-      "Au Lit Fine Linens is a Toronto-based, family-owned business dedicated to transforming sleep with luxury linens crafted from premium Egyptian cotton and natural fabrics. Since 1981, it has offered bespoke bedding, personalized service, and expert customization for both homes and hospitality. All products are made with a commitment to quality, comfort, and timeless style.",
+      "Toronto family-owned brand crafting luxury linens from premium Egyptian cotton and natural fabrics since 1981. Offers bespoke bedding, expert customization, and timeless style for home and hospitality.",
     src: "house.jpg",
     link: "https://iili.io/KhrHG3v.png",
     color: "#ed649e",
@@ -47,7 +47,7 @@ const projects = [
   {
     title: "Polarsteps – Personalized Travel Tracker & Planner (React, AWS)",
     description:
-      "Polarsteps is a travel platform that helps users effortlessly plan, track, and share their journeys using automatic GPS route mapping and multimedia journaling. Its intuitive app creates digital and printed travel books, enhances travel planning with AI-generated itineraries, and offers flexible privacy options for sharing adventures. With offline support and a thriving community, Polarsteps brings travel memories and inspiration together in a seamless, engaging experience.",
+      "Travel platform that automatically maps routes and builds multimedia journals from your trips. Plan with AI-assisted itineraries, create printed books, and share privately or with the community—online or offline.",
     src: "house.jpg",
     link: "https://iili.io/Khr830J.png",
     color: "#234632",
@@ -58,7 +58,7 @@ const projects = [
     title:
       "AI Content Detector - Copyleaks Chrome Extension (Chrome Extension, React, Manifest v3)",
     description:
-      "A real estate platform built with React and Tailwind CSS. Features include property listings, virtual tours, mortgage calculators, and real-time market analytics for home buyers and sellers.",
+      "Chrome extension that detects AI-generated content using Copyleaks directly in the browser. Built with React and Manifest v3, it analyzes text and highlights results quickly.",
     src: "house.jpg",
     link: "https://iili.io/Kh4wKvI.png",
     color: "#678945",
@@ -70,7 +70,7 @@ const projects = [
     title:
       "Thunderbit – AI Web Scraper & Web Automation Agent (Chrome Extension, JS, Manifest v3)",
     description:
-      "Thunderbit is a powerful AI-driven Chrome extension that enables users to scrape data from any website, PDF, or image in just two clicks, eliminating the need for coding. It supports scraping emails, phone numbers, images, and detailed data across multiple pages with built-in templates for popular sites like Amazon, LinkedIn, and Zillow.",
+      "AI-powered Chrome extension for no-code web scraping and automation in two clicks. Scrape emails, phone numbers, images, and multi-page data with templates for Amazon, LinkedIn, and Zillow.",
     src: "house.jpg",
     link: "https://iili.io/Kh6IWAP.png",
     color: "#e58932",
@@ -82,7 +82,7 @@ const projects = [
     title:
       "Indeed Scraper – Job Data Extraction Chrome Extension (Chrome Extension, JS, Manifest v3)",
     description:
-      "Indeed Scraper is a user-friendly Chrome extension designed to effortlessly extract and export detailed job data from Indeed in CSV, JSON, or Excel formats. It helps job seekers, recruiters, and HR managers easily analyze job market trends, track hiring, and customize searches without any coding skills.",
+      "Chrome extension that extracts detailed job data from Indeed to CSV, JSON, or Excel. Ideal for seekers and recruiters to analyze trends, track hiring, and customize searches—no coding required.",
     src: "house.jpg",
     link: "https://iili.io/Kh6Ry2j.png",
     color: "#e58932",
@@ -91,10 +91,9 @@ const projects = [
       "https://chromewebstore.google.com/detail/indeed-scraper/bneijclffbjaigpohjfnfmjpnaadchdd",
   },
   {
-    title:
-      "Adaline AI(SaaS) (React, Node.js, OpenAI, LangChain)",
+    title: "Adaline AI(SaaS) (React, Node.js, OpenAI, LangChain)",
     description:
-      "Adaline AI is a unified platform that helps product and engineering teams develop, iterate, evaluate, deploy, and monitor AI-powered applications and prompts at scale, handling high-volume workloads with reliability.",
+      "Unified platform for product and engineering teams to develop, evaluate, deploy, and monitor AI apps and prompts at scale. Built with React and Node.js, it handles high-volume workloads using OpenAI and LangChain.",
     src: "house.jpg",
     link: "https://iili.io/Kwdanu2.png",
     color: "#e58932",
@@ -106,7 +105,7 @@ const projects = [
     title:
       "Relevance AI – Build Your AI Workforce (React, Vue.js, Node.js, OpenAI, LangChain)",
     description:
-      "Relevance AI is a no-code platform that enables businesses to build, customize, and manage teams of AI agents for enterprise tasks like sales, research, and automation, delivering human-quality work at scale.",
+      "No-code platform to build, customize, and manage teams of AI agents for enterprise tasks like sales, research, and automation. Delivers human-quality work at scale on an OpenAI/LangChain stack.",
     src: "house.jpg",
     link: "https://iili.io/Kw25Agf.png",
     color: "#448329",
