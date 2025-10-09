@@ -90,6 +90,30 @@ const projects = [
     liveLink:
       "https://chromewebstore.google.com/detail/indeed-scraper/bneijclffbjaigpohjfnfmjpnaadchdd",
   },
+  {
+    title:
+      "Adaline AI(SaaS) (React, Node.js, OpenAI, LangChain)",
+    description:
+      "Adaline AI is a unified platform that helps product and engineering teams develop, iterate, evaluate, deploy, and monitor AI-powered applications and prompts at scale, handling high-volume workloads with reliability.",
+    src: "house.jpg",
+    link: "https://iili.io/Kwdanu2.png",
+    color: "#e58932",
+    githubLink: "https://github.com/seraprogrammer/CodeKori",
+    liveLink:
+      "https://chromewebstore.google.com/detail/indeed-scraper/bneijclffbjaigpohjfnfmjpnaadchdd",
+  },
+  {
+    title:
+      "Relevance AI – Build Your AI Workforce (React, Vue.js, Node.js, OpenAI, LangChain)",
+    description:
+      "Relevance AI is a no-code platform that enables businesses to build, customize, and manage teams of AI agents for enterprise tasks like sales, research, and automation, delivering human-quality work at scale.",
+    src: "house.jpg",
+    link: "https://iili.io/Kw25Agf.png",
+    color: "#448329",
+    githubLink: "https://github.com/seraprogrammer/CodeKori",
+    liveLink:
+      "https://chromewebstore.google.com/detail/indeed-scraper/bneijclffbjaigpohjfnfmjpnaadchdd",
+  },
 ];
 
 export default function Projects() {
@@ -147,7 +171,7 @@ export default function Projects() {
   return (
     <ReactLenis root>
       <main id="projects" className="bg-[#04081A]" ref={container}>
-        <section className="text-white w-full bg-slate-950">
+        <section className="text-white w-full bg-slate-950 pb-40">
           <div className="flex flex-col justify-center items-center mp-10">
             <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
               -Projects-
@@ -261,7 +285,7 @@ function Card({
                 <div className="h-[1px] w-12 md:w-20 bg-gray-600" />
               </div>
 
-              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-2 md:mb-4">
+              <h2 className="text-xl md:text-xl xl:text-xl 2xl:text-2xl font-bold text-white mb-2 md:mb-4">
                 {title}
               </h2>
               <p className="text-sm md:text-base text-gray-400 leading-relaxed line-clamp-3 md:line-clamp-none max-w-md">
