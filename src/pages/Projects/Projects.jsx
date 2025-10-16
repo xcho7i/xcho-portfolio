@@ -98,8 +98,7 @@ const projects = [
     link: "https://iili.io/Kwdanu2.png",
     color: "#e58932",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink:
-      "https://chromewebstore.google.com/detail/indeed-scraper/bneijclffbjaigpohjfnfmjpnaadchdd",
+    liveLink: "https://www.adaline.ai/",
   },
   {
     title:
@@ -110,8 +109,7 @@ const projects = [
     link: "https://iili.io/Kw25Agf.png",
     color: "#448329",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink:
-      "https://chromewebstore.google.com/detail/indeed-scraper/bneijclffbjaigpohjfnfmjpnaadchdd",
+    liveLink: "https://relevanceai.com/",
   },
 ];
 
