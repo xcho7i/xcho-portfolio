@@ -52,11 +52,12 @@ export default function Hero() {
   const [code] = useState(`
 const profile = {
     name: '${config.developerName}',
-    title: 'Full-Stack Developer|Extension Developer|Scraping Expert',
+    title: '${config.developerKeywords}',
     skills: [
         'React', 'NextJS', 'Redux', 'Express','Node.js',
         'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript',
-        'GraphQL', 'Git', 'Linux', 'Discord Development'
+        'GraphQL', 'Git', 'Linux', 'Discord Development',
+        'AI', 'Shopify'
     ],
     hardWorker: true,
     quickLearner: true,
@@ -66,8 +67,8 @@ const profile = {
         return (
             this.hardWorker &&
             this.problemSolver &&
-            this.skills.length >= 5 &&
-            this.yearsOfExperience >= 3
+            this.skills.length >= 15 &&
+            this.yearsOfExperience >= 5
         );
     },
     statue: "🔥Open To Work!"
@@ -237,7 +238,7 @@ const profile = {
                 </a>
 
                 {/* Contact Button */}
-                <a
+                {/* <a
                   href="#"
                   className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
@@ -247,7 +248,7 @@ const profile = {
                       <i className="fas fa-envelope transform transition-all duration-300 group-hover:rotate-12"></i>
                     </span>
                   </span>
-                </a>
+                </a> */}
               </div>
 
               {/* Floating badges */}

@@ -5,9 +5,9 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Olova! A Lightweight JavaScript Library (Vue.js, Vite)",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+      "A lightweight JavaScript library for building beautiful, responsive UI components. Built with Vue.js and Vite for simplicity and speed.",
     src: "rock.jpg",
     link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
     color: "#5196fd",
@@ -15,64 +15,101 @@ const projects = [
     liveLink: "https://olova.js.org/",
   },
   {
-    title: "WAGMI game frontend built with React and Tailwind CSS",
+    title: "Nanoleaf – Smart LED Lighting for Creative Spaces (Shopify)",
     description:
-      "A WAGMI-themed game frontend built with React and Tailwind CSS. Features include interactive gameplay elements, responsive design, and modern UI components for an engaging gaming experience.",
+      "Modular LED lighting that transforms spaces with interactive, color-customizable designs and smart-home integration. Control effects via app or voice with eco-friendly, energy-efficient technology for personalized lighting.",
     src: "tree.jpg",
-    link: "https://iili.io/FPOIu3v.png",
+    link: "https://iili.io/Khg5THN.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "",
+    liveLink: "https://nanoleaf.me/",
   },
   {
-    title: "🚀 Adventure Marketing Platform",
+    title: "LookPrior – Video-Powered Marketplace (Shopify)",
     description:
-      "A comprehensive marketing platform built with Vue.js, Node.js and MongoDB. Features include campaign management, analytics dashboard, lead tracking, and automated marketing workflows.",
+      "Mobile classifieds where listings include videos and images to boost buyer confidence. Features secure messaging, customizable listings, and real-time local and national reach.",
     src: "water.jpg",
-    link: "https://iili.io/FPOlnJn.png",
+    link: "https://iili.io/KhgLNg1.png",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "",
+    liveLink: "https://lookprior.com/",
   },
   {
-    title: "Hotel introduction",
+    title: "Au Lit Fine Linens – Canadian Luxury Bedding (Shopify)",
     description:
-      "A modern hotel introduction website built with React and Tailwind CSS. Features include room showcases, booking system, amenities display, and interactive hotel information for guests.",
+      "Toronto family-owned brand crafting luxury linens from premium Egyptian cotton and natural fabrics since 1981. Offers bespoke bedding, expert customization, and timeless style for home and hospitality.",
     src: "house.jpg",
-    link: "https://iili.io/FPOWytn.png",
+    link: "https://iili.io/KhrHG3v.png",
     color: "#ed649e",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    liveLink: "https://www.aulitfinelinens.com/",
   },
   {
-    title: "Swapped(Blockchain)",
+    title: "Polarsteps – Personalized Travel Tracker & Planner (React, AWS)",
     description:
-      "A blockchain-based swapping platform built with React and Tailwind CSS. Features include token swapping, liquidity pools, wallet integration, and decentralized exchange functionality.",
+      "Travel platform that automatically maps routes and builds multimedia journals from your trips. Plan with AI-assisted itineraries, create printed books, and share privately or with the community—online or offline.",
     src: "house.jpg",
-    link: "https://iili.io/FPOvht2.png",
+    link: "https://iili.io/Khr830J.png",
     color: "#234632",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    liveLink: "https://www.polarsteps.com/",
   },
   {
-    title: "Dream Home Seller",
+    title:
+      "AI Content Detector - Copyleaks Chrome Extension (Chrome Extension, React, Manifest v3)",
     description:
-      "A real estate platform built with React and Tailwind CSS. Features include property listings, virtual tours, mortgage calculators, and real-time market analytics for home buyers and sellers.",
+      "Chrome extension that detects AI-generated content using Copyleaks directly in the browser. Built with React and Manifest v3, it analyzes text and highlights results quickly.",
     src: "house.jpg",
-    link: "https://iili.io/FPOyhdb.png",
+    link: "https://iili.io/Kh4wKvI.png",
     color: "#678945",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    liveLink:
+      "https://chromewebstore.google.com/detail/ai-content-detector-copyl/gplcmncpklkdjiccbknjjkoidpgkcakd",
   },
   {
-    title: "Aether Game Frontend",
+    title:
+      "Thunderbit – AI Web Scraper & Web Automation Agent (Chrome Extension, JS, Manifest v3)",
     description:
-      "A gaming frontend platform built with React and Tailwind CSS. Features include game launcher, player profiles, leaderboards, multiplayer functionality, and immersive gaming interface.",
+      "AI-powered Chrome extension for no-code web scraping and automation in two clicks. Scrape emails, phone numbers, images, and multi-page data with templates for Amazon, LinkedIn, and Zillow.",
     src: "house.jpg",
-    link: "https://iili.io/FPeHqtp.png",
+    link: "https://iili.io/Kh6IWAP.png",
     color: "#e58932",
     githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    liveLink:
+      "https://chromewebstore.google.com/detail/thunderbit-ai-web-scraper/hbkblmodhbmcakopmmfbaopfckopccgp",
+  },
+  {
+    title:
+      "Indeed Scraper – Job Data Extraction Chrome Extension (Chrome Extension, JS, Manifest v3)",
+    description:
+      "Chrome extension that extracts detailed job data from Indeed to CSV, JSON, or Excel. Ideal for seekers and recruiters to analyze trends, track hiring, and customize searches—no coding required.",
+    src: "house.jpg",
+    link: "https://iili.io/Kh6Ry2j.png",
+    color: "#e58932",
+    githubLink: "https://github.com/seraprogrammer/CodeKori",
+    liveLink:
+      "https://chromewebstore.google.com/detail/indeed-scraper/bneijclffbjaigpohjfnfmjpnaadchdd",
+  },
+  {
+    title: "Adaline AI(SaaS) (React, Node.js, OpenAI, LangChain)",
+    description:
+      "Unified platform for product and engineering teams to develop, evaluate, deploy, and monitor AI apps and prompts at scale. Built with React and Node.js, it handles high-volume workloads using OpenAI and LangChain.",
+    src: "house.jpg",
+    link: "https://iili.io/Kwdanu2.png",
+    color: "#e58932",
+    githubLink: "https://github.com/seraprogrammer/CodeKori",
+    liveLink: "https://www.adaline.ai/",
+  },
+  {
+    title:
+      "Relevance AI – Build Your AI Workforce (React, Vue.js, Node.js, OpenAI, LangChain)",
+    description:
+      "No-code platform to build, customize, and manage teams of AI agents for enterprise tasks like sales, research, and automation. Delivers human-quality work at scale on an OpenAI/LangChain stack.",
+    src: "house.jpg",
+    link: "https://iili.io/Kw25Agf.png",
+    color: "#448329",
+    githubLink: "https://github.com/seraprogrammer/CodeKori",
+    liveLink: "https://relevanceai.com/",
   },
 ];
 
@@ -82,6 +119,7 @@ export default function Projects() {
     target: container,
     offset: ["start start", "end end"],
   });
+  const totalProjects = projects.length;
 
   useEffect(() => {
     // Add specific styles for 1366x768 resolution
@@ -130,15 +168,26 @@ export default function Projects() {
   return (
     <ReactLenis root>
       <main id="projects" className="bg-[#04081A]" ref={container}>
-        <section className="text-white w-full bg-slate-950">
-        <div className="flex flex-col justify-center items-center mp-10">
-          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">-Projects-</h1>
-          <p className="text-gray-300 text-lg">
-            Here are some of my projects that I've worked on.
-          </p>
-        </div>
+        <section className="text-white w-full bg-slate-950 pb-40">
+          <div className="flex flex-col justify-center items-center mp-10">
+            <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+              -Projects-
+            </h1>
+            <p className="text-gray-300 text-lg">
+              Here are some of my projects that I've worked on.
+            </p>
+          </div>
           {projects.map((project, i) => {
-            const targetScale = 1 - (projects.length - i) * 0.05;
+            // Distribute scroll ranges evenly across all projects (works for any count)
+            const rangeStart = i / totalProjects;
+            const rangeEnd = Math.min(1, rangeStart + 1 / totalProjects);
+
+            // Smooth scale distribution from min to max across the stack
+            const minScale = 0.85;
+            const maxScale = 1;
+            const scaleStep =
+              (maxScale - minScale) / Math.max(totalProjects, 1);
+            const targetScale = maxScale - (totalProjects - i - 1) * scaleStep;
             return (
               <Card
                 key={`p_${i}`}
@@ -148,7 +197,7 @@ export default function Projects() {
                 color={project.color}
                 description={project.description}
                 progress={scrollYProgress}
-                range={[i * 0.25, 1]}
+                range={[rangeStart, rangeEnd]}
                 targetScale={targetScale}
                 githubLink={project.githubLink}
                 liveLink={project.liveLink}
@@ -225,15 +274,78 @@ function Card({
           {/* Content section - full width on mobile, 45% on desktop */}
           <div className="w-full md:w-[45%] p-6 md:p-8 lg:p-10 flex flex-col justify-between">
             <div>
-              <div className="flex items-center gap-3 mb-4 md:mb-6">
-                <div
-                  className="w-2 h-2 md:w-3 md:h-3 rounded-full"
-                  style={{ backgroundColor: color }}
-                />
-                <div className="h-[1px] w-12 md:w-20 bg-gray-600" />
+              <div className="flex items-center gap-3 mb-4 md:mb-6 flex justify-between">
+                <div className="flex items-center gap-3">
+                  <div
+                    className="w-2 h-2 md:w-3 md:h-3 rounded-full"
+                    style={{ backgroundColor: color }}
+                  />
+                  <div className="h-[1px] w-12 md:w-20 bg-gray-600" />
+                </div>
+                <div className="flex items-center gap-4">
+                  {/* <motion.a
+                    href={githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-center gap-2"
+                    whileHover={{ y: -3 }}
+                    transition={{ type: "spring", stiffness: 400 }}
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke={color}
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    <span
+                      className="text-xs md:text-sm font-medium"
+                      style={{ color }}
+                    >
+                      Code
+                    </span>
+                  </motion.a> */}
+
+                  <motion.a
+                    href={liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-center gap-2"
+                    whileHover={{ y: -3 }}
+                    transition={{ type: "spring", stiffness: 400 }}
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke={color}
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="2" y1="12" x2="22" y2="12"></line>
+                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    <span
+                      className="text-xs md:text-sm font-medium"
+                      style={{ color }}
+                    >
+                      Live
+                    </span>
+                  </motion.a>
+                </div>
               </div>
 
-              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-2 md:mb-4">
+              <h2 className="text-xl md:text-xl xl:text-xl 2xl:text-2xl font-bold text-white mb-2 md:mb-4">
                 {title}
               </h2>
               <p className="text-sm md:text-base text-gray-400 leading-relaxed line-clamp-3 md:line-clamp-none max-w-md">
@@ -241,75 +353,12 @@ function Card({
               </p>
             </div>
 
-            {/* <div className="mt-4 md:mt-auto pt-4">
+            <div className="mt-4 md:mt-auto pt-4">
               <div className="w-full h-[1px] bg-gray-800 mb-4 md:mb-6" />
-
-              <div className="flex items-center gap-4">
-                <motion.a
-                  href={githubLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center gap-2"
-                  whileHover={{ y: -3 }}
-                  transition={{ type: "spring", stiffness: 400 }}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke={color}
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                  </svg>
-                  <span
-                    className="text-xs md:text-sm font-medium"
-                    style={{ color }}
-                  >
-                    Code
-                  </span>
-                </motion.a>
-
-                <motion.a
-                  href={liveLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center gap-2"
-                  whileHover={{ y: -3 }}
-                  transition={{ type: "spring", stiffness: 400 }}
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke={color}
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <line x1="2" y1="12" x2="22" y2="12"></line>
-                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                  </svg>
-                  <span
-                    className="text-xs md:text-sm font-medium"
-                    style={{ color }}
-                  >
-                    Live
-                  </span>
-                </motion.a>
-              </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </motion.div>
-      
     </div>
   );
 }

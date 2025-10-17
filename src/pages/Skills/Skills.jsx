@@ -13,7 +13,7 @@ import {
   FaFigma,
   FaAws,
   FaJs,
-  FaVuejs
+  FaVuejs,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -29,6 +29,8 @@ import {
   SiVercel,
   SiVite,
   SiMysql,
+  SiShopify,
+  SiOpenai,
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
@@ -81,7 +83,7 @@ const SkillsSection = () => {
         },
         {
           name: "Vue.js",
-          icon: <FaVuejs className="w-4 h-4 text-white"/>
+          icon: <FaVuejs className="w-4 h-4 text-white" />,
         },
         {
           name: "JavaScript (ES6+)",
@@ -200,6 +202,11 @@ const SkillsSection = () => {
         },
         { name: "Vercel", icon: <SiVercel className="w-4 h-4 text-white" /> },
         { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
+        { name: "AI", icon: <SiOpenai className="w-4 h-4 text-[#74AA9C]" /> },
+        {
+          name: "Shopify",
+          icon: <SiShopify className="w-4 h-4 text-[#96bf48]" />,
+        },
       ],
     },
     {
@@ -228,7 +235,10 @@ const SkillsSection = () => {
   ];
 
   return (
-    <main id="skills" className="pt-15 lg:pt-0 text-white min-h-screen bg-[#04081A] relative">
+    <main
+      id="skills"
+      className="pt-15 lg:pt-0 text-white min-h-screen bg-[#04081A] relative"
+    >
       {/* Grid Background */}
       <div className="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none"></div>
 
